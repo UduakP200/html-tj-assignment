@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+        }
+        label{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to FutureTECH</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a> | <a href="./about1.html">About Us</a>
+    </nav>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email; puduak79@gmail.com
+        Phone No: +234 9098384972 support@FutureTECH.com</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" placeholder="enter your name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="enter here" name="email" required><br>
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 FutureTECH. All rights reserved.</p>
+    </footer>
+</body>
+</html>
